@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-03T14:53:30 IST" name="opencart" finished-at="2023-12-03T14:53:45 IST" duration-ms="15228">
+    <groups>
+      <group name="ddt">
+        <method signature="TC_003_login_DataDriven_Testing.login_DataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@6e9a5ed8]" name="login_DataDriven" class="testCases.TC_003_login_DataDriven_Testing"/>
+      </group> <!-- ddt -->
+      <group name="regression">
+        <method signature="TC_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@710c2b53]" name="test_account_registration" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_Login.test_user_login()[pri:0, instance:testCases.TC_002_Login@268f106e]" name="test_user_login" class="testCases.TC_002_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@710c2b53]" name="test_account_registration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_Login.test_user_login()[pri:0, instance:testCases.TC_002_Login@268f106e]" name="test_user_login" class="testCases.TC_002_Login"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2023-12-03T14:53:30 IST" name="Test" finished-at="2023-12-03T14:53:45 IST" duration-ms="15228">
+      <class name="testCases.TC_003_login_DataDriven_Testing">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@6e9a5ed8]" started-at="2023-12-03T14:53:43 IST" name="setup" finished-at="2023-12-03T14:53:44 IST" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_DataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@6e9a5ed8]" started-at="2023-12-03T14:53:45 IST" name="login_DataDriven" data-provider="LoginTest" finished-at="2023-12-03T14:53:45 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/xmlbeans/impl/schema/DocumentFactory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/xmlbeans/impl/schema/DocumentFactory
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoClassDefFoundError: org/apache/xmlbeans/impl/schema/DocumentFactory
+at org.openxmlformats.schemas.drawingml.x2006.main.ThemeDocument.<clinit>(ThemeDocument.java:23)
+at org.apache.poi.xssf.model.ThemesTable.readFrom(ThemesTable.java:119)
+at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:87)
+at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
+at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:662)
+at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:260)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+at utilities.XLUtility.getRowCount(XLUtility.java:36)
+at testCases.TC_003_login_DataDriven_Testing.getData(TC_003_login_DataDriven_Testing.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 25 more
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.impl.schema.DocumentFactory
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_DataDriven -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@6e9a5ed8]" started-at="2023-12-03T14:53:45 IST" name="tearDown" finished-at="2023-12-03T14:53:45 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_login_DataDriven_Testing -->
+      <class name="testCases.TC_002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@268f106e]" started-at="2023-12-03T14:53:40 IST" name="setup" finished-at="2023-12-03T14:53:41 IST" duration-ms="947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_user_login()[pri:0, instance:testCases.TC_002_Login@268f106e]" started-at="2023-12-03T14:53:41 IST" name="test_user_login" finished-at="2023-12-03T14:53:43 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_user_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@268f106e]" started-at="2023-12-03T14:53:43 IST" name="tearDown" finished-at="2023-12-03T14:53:43 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@710c2b53]" started-at="2023-12-03T14:53:30 IST" name="setup" finished-at="2023-12-03T14:53:33 IST" duration-ms="2582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@710c2b53]" started-at="2023-12-03T14:53:33 IST" name="test_account_registration" finished-at="2023-12-03T14:53:40 IST" duration-ms="7225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@710c2b53]" started-at="2023-12-03T14:53:40 IST" name="tearDown" finished-at="2023-12-03T14:53:40 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- opencart -->
+</testng-results>

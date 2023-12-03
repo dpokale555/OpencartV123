@@ -1,0 +1,478 @@
+2023-11-28 15:46:36.279 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-28 15:46:36.281 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-28 15:46:36.281 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-28 15:46:37.094 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-28 15:46:37.713 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-28 15:46:41.188 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-28 15:46:51.251 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-11-29 15:21:00.612 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 15:21:00.617 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 15:21:00.617 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 15:21:06.019 [main] FATAL testCases.TC_001_AccountRegistration - Registration test case failed
+2023-11-29 15:21:39.338 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 15:21:39.340 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 15:21:39.340 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 15:21:41.430 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-29 15:21:42.369 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-29 15:21:45.981 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-29 15:21:56.047 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-11-29 15:22:28.912 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 15:22:28.914 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 15:22:28.914 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 15:22:29.838 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-29 15:22:30.554 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-29 15:22:34.066 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-29 15:22:34.858 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-29 15:30:42.962 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 15:30:42.964 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 15:30:42.965 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 15:30:43.778 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-29 15:30:44.410 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-29 15:30:47.902 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-29 15:30:48.443 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-29 15:36:02.750 [TestNG-tests-2] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 15:36:02.750 [TestNG-tests-1] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 15:36:02.755 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 15:36:02.755 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 15:36:02.756 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 15:36:02.756 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 15:36:04.325 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-29 15:36:04.326 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-29 15:36:05.561 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-29 15:36:05.566 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-29 15:36:09.590 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-29 15:36:09.836 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-29 15:36:10.566 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-29 15:36:10.697 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-29 16:13:34.929 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 16:13:34.933 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 16:13:34.935 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 16:13:36.211 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-29 16:13:36.919 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-29 16:13:40.470 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-29 16:13:41.150 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-29 16:18:06.427 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-29 16:18:06.430 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-29 16:18:06.430 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-29 16:18:07.254 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-29 16:18:08.123 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-29 16:18:11.604 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-29 16:18:12.232 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 01:07:11.937 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 01:07:11.942 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 01:07:11.942 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 01:07:13.355 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 01:07:14.212 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 01:07:18.215 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 01:07:19.244 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 01:11:08.939 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 01:11:08.944 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 01:11:08.945 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 01:11:09.838 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 01:11:10.068 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 01:11:20.125 [main] FATAL testCases.TC_001_AccountRegistration - Registration test case failed
+2023-11-30 01:14:58.121 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 01:14:58.126 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 01:14:58.126 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 01:14:58.965 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 01:14:59.744 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 01:15:03.826 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 01:15:04.807 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 01:21:07.328 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 01:21:07.334 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 01:21:07.335 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 01:21:08.285 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 01:21:09.064 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 01:21:13.057 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 01:21:14.133 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 01:25:26.575 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 01:25:26.580 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 01:25:26.580 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 01:25:27.437 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 01:25:28.224 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 01:25:31.919 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 01:25:32.924 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 09:28:42.136 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 09:28:42.139 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 09:28:42.139 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 09:28:42.755 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 09:28:43.412 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 09:28:46.964 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 09:28:47.632 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 09:37:37.433 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 09:37:37.438 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 09:37:37.439 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 09:37:38.684 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 09:37:39.613 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 09:37:43.500 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 09:37:44.509 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 09:50:55.048 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 09:50:55.051 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 09:50:55.051 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 09:50:59.856 [main] FATAL testCases.TC_001_AccountRegistration - Registration test case failed
+2023-11-30 09:51:30.622 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 09:51:30.625 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 09:51:30.625 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 09:51:31.590 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 09:51:32.158 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 09:51:35.642 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 09:51:36.295 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 10:17:48.902 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 10:17:48.904 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 10:17:48.904 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 10:17:49.874 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 10:17:50.422 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 10:17:53.906 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 10:17:54.535 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 18:12:30.821 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 18:12:30.826 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 18:12:30.828 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 18:12:32.396 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 18:12:33.304 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 18:12:36.805 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 18:12:37.398 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 18:20:53.629 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 18:20:53.631 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 18:20:53.632 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 18:20:54.855 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 18:20:55.555 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 18:20:59.155 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 18:20:59.771 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-11-30 19:59:36.896 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-11-30 19:59:36.906 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-11-30 19:59:36.906 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-11-30 19:59:38.464 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-11-30 19:59:39.523 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-11-30 19:59:43.459 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-11-30 19:59:53.662 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 10:53:59.998 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 10:54:00.005 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 10:54:00.005 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 10:54:05.144 [main] FATAL testCases.TC_001_AccountRegistration - Registration test case failed
+2023-12-01 10:54:24.704 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 10:54:24.709 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 10:54:24.710 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 10:54:26.289 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 10:54:27.490 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-12-01 10:54:31.453 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 10:54:41.737 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 10:56:20.951 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 10:56:20.958 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 10:56:20.959 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 10:56:22.428 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 10:56:23.498 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Details
+2023-12-01 10:56:27.424 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 10:56:28.705 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 11:47:57.741 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 11:47:57.744 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 11:47:57.744 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 11:48:02.779 [main] FATAL testCases.TC_001_AccountRegistration - Registration test case failed
+2023-12-01 11:50:19.450 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 11:50:19.457 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 11:50:19.457 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 11:50:20.515 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 11:50:21.175 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 11:50:21.287 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 11:50:21.378 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 11:50:21.474 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 11:50:21.538 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 11:50:24.561 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 11:50:24.609 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 11:50:24.696 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 11:50:34.972 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 11:51:56.743 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 11:51:56.745 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 11:51:56.745 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 11:51:57.629 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 11:51:58.403 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 11:51:58.490 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 11:51:58.554 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 11:51:58.617 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 11:51:58.712 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 11:52:01.726 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 11:52:01.788 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 11:52:01.861 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 11:52:02.891 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 11:56:30.521 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 11:56:30.524 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 11:56:30.524 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 11:56:31.235 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 11:56:31.783 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 11:56:31.893 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 11:56:31.981 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 11:56:32.105 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 11:56:32.175 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 11:56:35.189 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 11:56:35.262 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 11:56:35.335 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 11:56:35.917 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 11:58:31.713 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 11:58:31.719 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 11:58:31.719 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 11:58:32.450 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 11:58:33.135 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 11:58:33.252 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 11:58:33.356 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 11:58:33.449 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 11:58:33.526 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 11:58:36.541 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 11:58:36.620 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 11:58:36.692 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 11:58:37.336 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 22:53:25.403 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 22:53:25.408 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 22:53:25.408 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 22:53:28.258 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 22:53:29.483 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 22:53:29.600 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 22:53:29.715 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 22:53:29.865 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 22:53:30.058 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 22:53:33.088 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 22:53:33.218 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 22:53:33.364 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 22:53:34.636 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 22:55:11.729 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 22:55:11.734 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 22:55:11.735 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 22:55:13.087 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 22:55:14.064 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 22:55:14.241 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 22:55:14.408 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 22:55:14.574 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 22:55:14.762 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 22:55:17.809 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 22:55:17.921 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 22:55:18.081 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 22:55:19.239 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 22:57:34.878 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 22:57:34.882 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 22:57:34.883 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 22:57:36.159 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 22:57:37.199 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 22:57:37.365 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 22:57:37.485 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 22:57:37.691 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 22:57:37.883 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 22:57:40.916 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 22:57:41.046 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 22:57:41.199 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 22:57:42.325 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:02:13.328 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:02:13.333 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:02:13.333 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:02:14.996 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:02:16.335 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:02:16.495 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:02:16.607 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:02:16.737 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:02:16.866 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:02:19.901 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:02:20.009 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:02:20.140 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:02:21.472 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:03:47.265 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:03:47.270 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:03:47.271 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:03:48.553 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:03:49.550 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:03:49.704 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:03:49.827 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:03:49.954 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:03:50.099 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:03:53.126 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:03:53.240 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:03:53.372 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:03:54.528 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:05:39.730 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:05:39.735 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:05:39.735 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:05:41.072 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:05:42.134 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:05:42.323 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:05:42.527 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:05:42.714 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:05:42.883 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:05:45.911 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:05:45.996 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:05:46.113 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:05:47.260 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:06:48.632 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:06:48.637 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:06:48.637 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:06:49.919 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:06:50.977 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:06:51.178 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:06:51.392 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:06:51.596 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:06:51.792 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:06:54.830 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:06:54.960 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:06:55.093 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:06:56.261 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:08:21.592 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:08:21.597 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:08:21.598 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:08:22.920 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:08:23.910 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:08:24.100 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:08:24.278 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:08:24.444 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:08:24.623 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:08:27.656 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:08:27.770 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:08:27.888 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:08:29.056 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:09:46.775 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:09:46.780 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:09:46.780 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:09:48.111 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:09:49.189 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:09:49.301 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:09:49.456 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:09:49.610 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:09:49.766 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:09:52.792 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:09:52.895 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:09:53.037 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:09:54.222 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:11:09.188 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:11:09.193 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:11:09.194 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:11:10.494 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:11:11.529 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:11:11.670 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:11:11.829 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:11:12.027 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:11:12.218 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:11:15.251 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:11:15.386 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:11:15.541 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:11:16.683 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-01 23:13:11.955 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:13:11.959 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:13:11.960 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:13:13.223 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:13:14.189 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:13:14.329 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:13:14.425 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:13:14.550 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:13:14.654 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:13:17.689 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:13:17.790 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:13:17.938 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:13:28.244 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 23:15:26.314 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:15:26.319 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:15:26.319 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:15:27.677 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:15:28.550 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:15:28.774 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:15:28.910 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:15:29.022 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:15:29.194 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:15:32.243 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:15:32.379 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:15:32.540 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:15:42.830 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 23:18:10.069 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:18:10.073 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:18:10.073 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:18:11.389 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:18:12.446 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:18:12.627 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:18:12.825 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:18:12.961 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:18:13.174 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:18:16.206 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:18:16.332 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:18:16.500 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:18:26.788 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 23:23:32.238 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:23:32.245 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:23:32.245 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:23:33.563 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:23:34.665 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:23:34.864 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:23:35.052 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:23:35.245 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:23:35.440 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:23:38.465 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:23:38.603 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:23:38.775 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:23:49.081 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 23:31:59.991 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:31:59.998 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:31:59.998 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:32:01.259 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:32:02.277 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:32:02.467 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:32:02.644 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:32:02.814 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:32:02.987 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:32:06.014 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:32:06.137 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:32:06.308 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:32:16.565 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 23:38:48.813 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:38:48.818 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:38:48.818 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:38:50.108 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:38:51.047 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:38:51.230 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:38:51.403 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:38:51.540 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:38:51.694 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:38:54.726 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:38:54.847 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:38:55.013 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:39:05.313 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 23:44:33.609 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:44:33.613 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:44:33.614 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:44:34.921 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:44:35.997 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:44:36.168 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:44:36.343 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:44:36.484 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:44:36.642 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:44:39.667 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:44:39.778 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:44:39.948 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:44:50.261 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-01 23:46:08.105 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-01 23:46:08.112 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-01 23:46:08.112 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-01 23:46:09.314 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-01 23:46:10.402 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-01 23:46:10.637 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-01 23:46:10.805 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-01 23:46:10.944 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-01 23:46:11.125 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-01 23:46:14.153 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-01 23:46:14.272 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-01 23:46:14.418 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-01 23:46:24.710 [main] ERROR testCases.TC_001_AccountRegistration - Registration Testcase and Validation Failed
+2023-12-02 00:02:12.753 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-02 00:02:12.759 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-02 00:02:12.760 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-02 00:02:14.137 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-02 00:02:15.172 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-02 00:02:15.317 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-02 00:02:15.472 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-02 00:02:15.621 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-02 00:02:15.771 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-02 00:02:18.803 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-02 00:02:18.934 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-02 00:02:19.040 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-02 00:02:20.235 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-02 00:02:22.036 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
+2023-12-02 00:02:23.348 [main] INFO  testCases.TC_002_Login - Homepage displayed
+2023-12-02 00:02:25.437 [main] INFO  testCases.TC_002_Login - Loggin is Success
+2023-12-02 00:04:15.141 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-02 00:04:15.145 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-02 00:04:15.146 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-02 00:04:16.370 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-02 00:04:17.242 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-02 00:04:17.425 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-02 00:04:17.533 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
