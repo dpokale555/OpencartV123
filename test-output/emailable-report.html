@@ -9,32 +9,22 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">opencart</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,228</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,885</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">opencart</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_003_login_DataDriven_Testing</td><td><a href="#m0">login_DataDriven</a></td><td rowspan="1">1701595425298</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_001_AccountRegistration</td><td><a href="#m1">test_account_registration</a></td><td rowspan="1">1701595413108</td><td rowspan="1">7225</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC_002_Login</td><td><a href="#m2">test_user_login</a></td><td rowspan="1">1701595421566</td><td rowspan="1">2139</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">opencart</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_003_login_DataDriven_Testing</td><td><a href="#m0">login_DataDriven</a></td><td rowspan="1">1701684599889</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCases.TC_003_login_DataDriven_Testing#login_DataDriven</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/xmlbeans/impl/schema/DocumentFactory
+<h2>Test</h2><h3 id="m0">testCases.TC_003_login_DataDriven_Testing#login_DataDriven</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.lang.NoClassDefFoundError: org/apache/xmlbeans/impl/schema/DocumentFactory
-	at org.openxmlformats.schemas.drawingml.x2006.main.ThemeDocument.&lt;clinit&gt;(ThemeDocument.java:23)
-	at org.apache.poi.xssf.model.ThemesTable.readFrom(ThemesTable.java:119)
-	at org.apache.poi.xssf.model.ThemesTable.&lt;init&gt;(ThemesTable.java:87)
-	at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:61)
-	at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:662)
-	at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:165)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:260)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:313)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:287)
+Caused by: java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
+	at org.apache.poi.ooxml.POIXMLDocumentPart.&lt;clinit&gt;(POIXMLDocumentPart.java:55)
 	at utilities.XLUtility.getRowCount(XLUtility.java:36)
 	at testCases.TC_003_login_DataDriven_Testing.getData(TC_003_login_DataDriven_Testing.java:91)
 	... 25 more
-Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.impl.schema.DocumentFactory
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	... 43 more
+	... 35 more
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC_001_AccountRegistration#test_account_registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.TC_002_Login#test_user_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

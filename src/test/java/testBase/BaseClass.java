@@ -24,7 +24,8 @@ public class BaseClass {
 	public WebDriver driver;
 	public Logger logger;       //log4j
 	public ResourceBundle rb;   //Properties
-
+	
+	
 	@BeforeClass(groups= {"sanity","regression","master"})
 	@Parameters({"browser"})
 	public void setup(String br)
@@ -54,6 +55,7 @@ public class BaseClass {
 		}
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
 
 	}
 

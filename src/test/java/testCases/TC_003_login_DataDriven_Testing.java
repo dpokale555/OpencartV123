@@ -83,25 +83,26 @@ public class TC_003_login_DataDriven_Testing extends BaseClass
 	
 	
 	 @DataProvider(name="LoginTest")
-	 public Object [][] getData() throws IOException
+	 public String [][] getData() throws IOException
 	 {
 		 String path=".\\testData\\test_data.xlsx";
 		 XLUtility xlutil=new XLUtility(path);
-		 logger.info("file path file");
-		int totalrows=xlutil.getRowCount("Sheet1");
-		logger.info("sheet1 row data captured");
+		 logger.info("file path reading");
+		int totalrows=xlutil.getRowCount("Data1");
+		logger.info("sheet reading");
 		
-		int totalcols=xlutil.getCellCount("Sheet1", 1);
+		
+		int totalcols=xlutil.getCellCount("Data1", 1);
 		logger.info("sheet1 cell data captured");
 		String logindata[][]=new String[totalrows][totalcols];
 		
-		for(int i=1;i<=totalrows;i++)	
+		for(int i=1;i<=totalrows;i++)	   
 		{
 			logger.info("row captured");
-			for(int j=0;j<totalcols;j++)
+			for(int j=0;j<totalcols;j++)       
 			{
 				logger.info("celled captured");
-				logindata[i-1][j]=xlutil.getCellData("Sheet", i, j);
+				logindata[i-1][j]=xlutil.getCellData("Data1", i, j);    
 			}
 		}
 		return logindata;

@@ -107,3 +107,55 @@
 2023-12-04 12:56:49.469 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
 2023-12-04 12:56:50.391 [main] INFO  testCases.TC_002_Login - Homepage displayed
 2023-12-04 12:56:51.822 [main] INFO  testCases.TC_002_Login - Loggin is Success
+2023-12-04 14:18:06.509 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:18:06.702 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-12-04 14:18:06.706 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-12-04 14:18:06.708 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2023-12-04 14:25:05.935 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:37:04.604 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:37:39.562 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:40:27.651 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:42:54.252 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-04 14:42:54.257 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-04 14:42:54.258 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-04 14:42:55.897 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-04 14:42:56.659 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-04 14:42:56.781 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-04 14:42:56.864 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-04 14:42:56.964 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-04 14:42:57.046 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-04 14:43:00.074 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-04 14:43:00.141 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-04 14:43:00.209 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-04 14:43:00.850 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-04 14:43:02.226 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
+2023-12-04 14:43:03.092 [main] INFO  testCases.TC_002_Login - Homepage displayed
+2023-12-04 14:43:04.651 [main] INFO  testCases.TC_002_Login - Loggin is Success
+2023-12-04 14:44:11.115 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:45:08.384 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:47:42.642 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:49:50.848 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:49:50.850 [main] DEBUG testCases.TC_003_login_DataDriven_Testing - sheet reading
+2023-12-04 14:50:59.906 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:50:59.911 [main] TRACE testCases.TC_003_login_DataDriven_Testing - sheet reading
+2023-12-04 14:54:05.355 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:54:40.804 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:55:04.324 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:58:39.567 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 14:58:39.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-12-04 14:58:39.735 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2023-12-04 14:58:39.737 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2023-12-04 15:02:26.406 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:04:49.124 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:07:41.846 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:07:41.850 [main] INFO  testCases.TC_003_login_DataDriven_Testing - sheet reading
+2023-12-04 15:08:54.098 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:14:03.927 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:21:11.859 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:23:52.703 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:25:12.041 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:26:55.793 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:29:43.023 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:35:24.134 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
+2023-12-04 15:37:45.202 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path reading
+2023-12-04 15:39:59.847 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path reading

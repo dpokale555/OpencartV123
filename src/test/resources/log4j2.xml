@@ -18,7 +18,7 @@
     </Appenders>
     
     <Loggers>
-        <Root level="Debug">  <!-- Here you can use multiple log levels - All < Trace < Debug < Info < Warn < Error < Fatal < off  -->
+        <Root level="All">  <!-- Here you can use multiple log levels - All < Trace < Debug < Info < Warn < Error < Fatal < off  -->
             <AppenderRef ref="File" />  
             <AppenderRef ref="Console"/>
         </Root>

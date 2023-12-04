@@ -78,23 +78,23 @@ public class XLUtility {
 
 	public void setCellData(String sheetName,int rownum,int column,String data) throws IOException
 	{
-	/*	File xlfile=new File(path);
+	File xlfile=new File(path);
 		if(!xlfile.exists())
 		{
 			workbook=new XSSFWorkbook();
 			fo=new FileOutputStream(path);
 			workbook.write(fo);
-		}*/
+		}
 
 		fi=new FileInputStream(path);
 		workbook =new XSSFWorkbook(fi);
 
-		/*if(workbook.getSheetIndex(sheetName)==-1)
-			workbook.createSheet(sheetName);*/
+		if(workbook.getSheetIndex(sheetName)==-1)
+			workbook.createSheet(sheetName);
 		sheet=workbook.getSheet(sheetName);
 
-	/*	if(sheet.getRow(rownum)==null)
-			sheet.createRow(rownum);*/
+		if(sheet.getRow(rownum)==null)
+			sheet.createRow(rownum);
 		row=sheet.getRow(rownum);
 
 		cell=row.createCell(column);
