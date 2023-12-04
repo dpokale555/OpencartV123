@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-03T15:00:40 IST" name="opencart" finished-at="2023-12-03T15:00:52 IST" duration-ms="11837">
+  <suite started-at="2023-12-04T12:31:13 IST" name="opencart" finished-at="2023-12-04T12:31:26 IST" duration-ms="13066">
     <groups>
       <group name="regression">
         <method signature="TC_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@333291e3]" name="test_account_registration" class="testCases.TC_001_AccountRegistration"/>
@@ -15,9 +15,9 @@
         <method signature="TC_002_Login.test_user_login()[pri:0, instance:testCases.TC_002_Login@123ef382]" name="test_user_login" class="testCases.TC_002_Login"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2023-12-03T15:00:40 IST" name="Test" finished-at="2023-12-03T15:00:52 IST" duration-ms="11837">
+    <test started-at="2023-12-04T12:31:13 IST" name="Test" finished-at="2023-12-04T12:31:26 IST" duration-ms="13066">
       <class name="testCases.TC_002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@123ef382]" started-at="2023-12-03T15:00:48 IST" name="setup" finished-at="2023-12-03T15:00:49 IST" duration-ms="861" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@123ef382]" started-at="2023-12-04T12:31:23 IST" name="setup" finished-at="2023-12-04T12:31:24 IST" duration-ms="1030" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,17 +28,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_user_login()[pri:0, instance:testCases.TC_002_Login@123ef382]" started-at="2023-12-03T15:00:49 IST" name="test_user_login" finished-at="2023-12-03T15:00:51 IST" duration-ms="2197" status="PASS">
+        <test-method signature="test_user_login()[pri:0, instance:testCases.TC_002_Login@123ef382]" started-at="2023-12-04T12:31:24 IST" name="test_user_login" finished-at="2023-12-04T12:31:26 IST" duration-ms="2420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_user_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@123ef382]" started-at="2023-12-03T15:00:51 IST" name="tearDown" finished-at="2023-12-03T15:00:52 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@123ef382]" started-at="2023-12-04T12:31:26 IST" name="tearDown" finished-at="2023-12-04T12:31:26 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_Login -->
       <class name="testCases.TC_001_AccountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@333291e3]" started-at="2023-12-03T15:00:40 IST" name="setup" finished-at="2023-12-03T15:00:42 IST" duration-ms="2330" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@333291e3]" started-at="2023-12-04T12:31:14 IST" name="setup" finished-at="2023-12-04T12:31:16 IST" duration-ms="2758" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@333291e3]" started-at="2023-12-03T15:00:42 IST" name="test_account_registration" finished-at="2023-12-03T15:00:48 IST" duration-ms="5846" status="PASS">
+        <test-method signature="test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@333291e3]" started-at="2023-12-04T12:31:16 IST" name="test_account_registration" finished-at="2023-12-04T12:31:22 IST" duration-ms="5820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@333291e3]" started-at="2023-12-03T15:00:48 IST" name="tearDown" finished-at="2023-12-03T15:00:48 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@333291e3]" started-at="2023-12-04T12:31:22 IST" name="tearDown" finished-at="2023-12-04T12:31:23 IST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
