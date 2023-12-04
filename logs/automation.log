@@ -159,3 +159,19 @@
 2023-12-04 15:35:24.134 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
 2023-12-04 15:37:45.202 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path reading
 2023-12-04 15:39:59.847 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path reading
+2023-12-04 15:43:49.887 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2023-12-04 15:43:49.894 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2023-12-04 15:43:49.895 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2023-12-04 15:43:50.916 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2023-12-04 15:43:51.739 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2023-12-04 15:43:51.861 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2023-12-04 15:43:51.965 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2023-12-04 15:43:52.112 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2023-12-04 15:43:52.234 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2023-12-04 15:43:55.261 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2023-12-04 15:43:55.361 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2023-12-04 15:43:55.498 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2023-12-04 15:43:56.128 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2023-12-04 15:43:57.864 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
+2023-12-04 15:43:58.977 [main] INFO  testCases.TC_002_Login - Homepage displayed
+2023-12-04 15:44:01.165 [main] INFO  testCases.TC_002_Login - Loggin is Success
