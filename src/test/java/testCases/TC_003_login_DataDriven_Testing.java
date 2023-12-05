@@ -87,9 +87,9 @@ public class TC_003_login_DataDriven_Testing extends BaseClass
 	 {
 		 String path=".\\testData\\test_data.xlsx";
 		 XLUtility xlutil=new XLUtility(path);
-		 logger.info("file path reading");
+		 logger.debug("file path reading");
 		int totalrows=xlutil.getRowCount("Data1");
-		logger.info("sheet reading");
+		logger.debug("sheet reading");
 		
 		
 		int totalcols=xlutil.getCellCount("Data1", 1);
