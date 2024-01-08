@@ -3,6 +3,8 @@ package testCases;
 import java.io.IOException;
 import java.time.Duration;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -23,6 +25,7 @@ public class TC_005_AddItemInCard extends BaseClass {
 	@Test
 	public void AddItemInCard() throws InterruptedException, IOException
 	{
+		logger.info("Starting TC_005_AddItemInCard");
 		try
 		{
 		driver.get(rb.getString("file_appURL"));
@@ -37,11 +40,12 @@ public class TC_005_AddItemInCard extends BaseClass {
 		hp.clickSrchBtn();
 		sp.ClickSrchItem();
 		pd.SelectDrpdown();
-		pd.SelectQty("2");
-		System.out.println("Total Qty:"+randomeNumber2());
-		Thread.sleep(5000);
+		pd.clearQty();
+		String randomQty=String.valueOf(randomNumber());
+		pd.SelectQty(randomQty);
 		pd.ScrollingPage();
 		pd.ClickAddBtn();
+		Thread.sleep(2000);
 		scrollingToStartPage();
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -68,6 +72,7 @@ public class TC_005_AddItemInCard extends BaseClass {
 		catch (Exception e)
 		{
 			e.printStackTrace();
+			Assert.fail();
 		}  
        
 		

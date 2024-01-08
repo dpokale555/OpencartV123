@@ -21,7 +21,7 @@ public class TC_002_Login extends BaseClass
 		{
 		driver.get(rb.getString("file_appURL"));
 		driver.manage().window().maximize();
-		logger.info("Homepage displayed");
+
 		
 		HomePage hp=new HomePage(driver);
 		LoginPage lp=new LoginPage(driver);
@@ -48,6 +48,7 @@ public class TC_002_Login extends BaseClass
 	}
 	catch (Exception e)
 		{
+			e.printStackTrace();
 			Assert.fail();
 		}
 	}

@@ -18,6 +18,7 @@ private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TC_008_Fo
 	@Test
 	public void ForgetPassword() throws InterruptedException, IOException {
 		
+		logger.info("Starting TC_008_ForgetPassword");
 		try
 		{
 		driver.get(rb.getString("file_appURL"));
@@ -50,6 +51,7 @@ private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TC_008_Fo
 		catch (Exception e)
 		{
 			e.printStackTrace();
+			Assert.fail();
 		}
 		
 				

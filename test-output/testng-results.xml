@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-08T12:10:52 IST" name="opencart" finished-at="2024-01-08T12:12:15 IST" duration-ms="82892">
+  <suite started-at="2024-01-08T16:07:00 IST" name="opencart" finished-at="2024-01-08T16:08:02 IST" duration-ms="62442">
     <groups>
-      <group name="ddt">
-        <method signature="TC_003_login_DataDriven_Testing.login_DataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@352ff4da]" name="login_DataDriven" class="testCases.TC_003_login_DataDriven_Testing"/>
-      </group> <!-- ddt -->
       <group name="regression">
-        <method signature="TC_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@4f4c4b1a]" name="test_account_registration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@39b43d60]" name="test_account_registration" class="testCases.TC_001_AccountRegistration"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_002_Login.test_user_login()[pri:0, instance:testCases.TC_002_Login@4e928fbf]" name="test_user_login" class="testCases.TC_002_Login"/>
+        <method signature="TC_002_Login.test_user_login()[pri:0, instance:testCases.TC_002_Login@239105a8]" name="test_user_login" class="testCases.TC_002_Login"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@4f4c4b1a]" name="test_account_registration" class="testCases.TC_001_AccountRegistration"/>
-        <method signature="TC_002_Login.test_user_login()[pri:0, instance:testCases.TC_002_Login@4e928fbf]" name="test_user_login" class="testCases.TC_002_Login"/>
+        <method signature="TC_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@39b43d60]" name="test_account_registration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_Login.test_user_login()[pri:0, instance:testCases.TC_002_Login@239105a8]" name="test_user_login" class="testCases.TC_002_Login"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-01-08T12:10:52 IST" name="Test" finished-at="2024-01-08T12:12:15 IST" duration-ms="82892">
+    <test started-at="2024-01-08T16:07:00 IST" name="Test" finished-at="2024-01-08T16:08:02 IST" duration-ms="62442">
       <class name="testCases.TC_005_AddItemInCard">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_AddItemInCard@2e32ccc5]" started-at="2024-01-08T12:11:08 IST" name="setup" finished-at="2024-01-08T12:11:09 IST" duration-ms="1046" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_AddItemInCard@609bcfb6]" started-at="2024-01-08T16:07:15 IST" name="setup" finished-at="2024-01-08T16:07:17 IST" duration-ms="1057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,17 +28,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddItemInCard()[pri:0, instance:testCases.TC_005_AddItemInCard@2e32ccc5]" started-at="2024-01-08T12:11:09 IST" name="AddItemInCard" finished-at="2024-01-08T12:11:20 IST" duration-ms="10808" status="PASS">
+        <test-method signature="AddItemInCard()[pri:0, instance:testCases.TC_005_AddItemInCard@609bcfb6]" started-at="2024-01-08T16:07:17 IST" name="AddItemInCard" finished-at="2024-01-08T16:07:25 IST" duration-ms="8101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddItemInCard -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddItemInCard@2e32ccc5]" started-at="2024-01-08T12:11:20 IST" name="tearDown" finished-at="2024-01-08T12:11:21 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_AddItemInCard@609bcfb6]" started-at="2024-01-08T16:07:25 IST" name="tearDown" finished-at="2024-01-08T16:07:25 IST" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_005_AddItemInCard -->
       <class name="testCases.TC_007_AddInWishlist">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_007_AddInWishlist@3e44f2a5]" started-at="2024-01-08T12:11:39 IST" name="setup" finished-at="2024-01-08T12:11:40 IST" duration-ms="1103" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_007_AddInWishlist@560348e6]" started-at="2024-01-08T16:07:36 IST" name="setup" finished-at="2024-01-08T16:07:38 IST" duration-ms="1135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,17 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddInWishlist()[pri:0, instance:testCases.TC_007_AddInWishlist@3e44f2a5]" started-at="2024-01-08T12:11:40 IST" name="AddInWishlist" finished-at="2024-01-08T12:12:05 IST" duration-ms="24536" status="PASS">
+        <test-method signature="AddInWishlist()[pri:0, instance:testCases.TC_007_AddInWishlist@560348e6]" started-at="2024-01-08T16:07:38 IST" name="AddInWishlist" finished-at="2024-01-08T16:07:53 IST" duration-ms="15855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddInWishlist -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_007_AddInWishlist@3e44f2a5]" started-at="2024-01-08T12:12:05 IST" name="tearDown" finished-at="2024-01-08T12:12:05 IST" duration-ms="506" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_007_AddInWishlist@560348e6]" started-at="2024-01-08T16:07:53 IST" name="tearDown" finished-at="2024-01-08T16:07:54 IST" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_007_AddInWishlist -->
       <class name="testCases.TC_008_ForgetPassword">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_008_ForgetPassword@295cf707]" started-at="2024-01-08T12:12:05 IST" name="setup" finished-at="2024-01-08T12:12:07 IST" duration-ms="1188" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_008_ForgetPassword@1df8b5b8]" started-at="2024-01-08T16:07:54 IST" name="setup" finished-at="2024-01-08T16:07:55 IST" duration-ms="1090" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,90 +70,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ForgetPassword()[pri:0, instance:testCases.TC_008_ForgetPassword@295cf707]" started-at="2024-01-08T12:12:07 IST" name="ForgetPassword" finished-at="2024-01-08T12:12:10 IST" duration-ms="3475" status="PASS">
+        <test-method signature="ForgetPassword()[pri:0, instance:testCases.TC_008_ForgetPassword@1df8b5b8]" started-at="2024-01-08T16:07:55 IST" name="ForgetPassword" finished-at="2024-01-08T16:07:58 IST" duration-ms="2669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ForgetPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_008_ForgetPassword@295cf707]" started-at="2024-01-08T12:12:10 IST" name="tearDown" finished-at="2024-01-08T12:12:11 IST" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_008_ForgetPassword@1df8b5b8]" started-at="2024-01-08T16:07:58 IST" name="tearDown" finished-at="2024-01-08T16:07:58 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_008_ForgetPassword -->
-      <class name="testCases.TC_003_login_DataDriven_Testing">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@352ff4da]" started-at="2024-01-08T12:11:04 IST" name="setup" finished-at="2024-01-08T12:11:05 IST" duration-ms="1062" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login_DataDriven(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@352ff4da]" started-at="2024-01-08T12:11:05 IST" name="login_DataDriven" data-provider="LoginTest" finished-at="2024-01-08T12:11:05 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoClassDefFoundError: org/apache/poi/util/POILogFactory
-at org.apache.poi.ooxml.POIXMLDocumentPart.<clinit>(POIXMLDocumentPart.java:55)
-at utilities.XLUtility.getRowCount(XLUtility.java:36)
-at testCases.TC_003_login_DataDriven_Testing.getData(TC_003_login_DataDriven_Testing.java:91)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-... 25 more
-Caused by: java.lang.ClassNotFoundException: org.apache.poi.util.POILogFactory
-at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_DataDriven -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_login_DataDriven_Testing@352ff4da]" started-at="2024-01-08T12:11:05 IST" name="tearDown" finished-at="2024-01-08T12:11:05 IST" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_003_login_DataDriven_Testing -->
       <class name="testCases.TC_004_Search">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_Search@3224a577]" started-at="2024-01-08T12:11:05 IST" name="setup" finished-at="2024-01-08T12:11:06 IST" duration-ms="1097" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004_Search@3fce8fd9]" started-at="2024-01-08T16:07:12 IST" name="setup" finished-at="2024-01-08T16:07:13 IST" duration-ms="1109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,17 +91,17 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="search_fetaure()[pri:0, instance:testCases.TC_004_Search@3224a577]" started-at="2024-01-08T12:11:06 IST" name="search_fetaure" finished-at="2024-01-08T12:11:08 IST" duration-ms="1756" status="PASS">
+        <test-method signature="search_fetaure()[pri:0, instance:testCases.TC_004_Search@3fce8fd9]" started-at="2024-01-08T16:07:13 IST" name="search_fetaure" finished-at="2024-01-08T16:07:15 IST" duration-ms="2190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_fetaure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_Search@3224a577]" started-at="2024-01-08T12:11:08 IST" name="tearDown" finished-at="2024-01-08T12:11:08 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_Search@3fce8fd9]" started-at="2024-01-08T16:07:15 IST" name="tearDown" finished-at="2024-01-08T16:07:15 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_004_Search -->
       <class name="testCases.TC_002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@4e928fbf]" started-at="2024-01-08T12:11:00 IST" name="setup" finished-at="2024-01-08T12:11:01 IST" duration-ms="1015" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@239105a8]" started-at="2024-01-08T16:07:08 IST" name="setup" finished-at="2024-01-08T16:07:09 IST" duration-ms="1011" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,17 +112,17 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_user_login()[pri:0, instance:testCases.TC_002_Login@4e928fbf]" started-at="2024-01-08T12:11:01 IST" name="test_user_login" finished-at="2024-01-08T12:11:04 IST" duration-ms="2250" status="PASS">
+        <test-method signature="test_user_login()[pri:0, instance:testCases.TC_002_Login@239105a8]" started-at="2024-01-08T16:07:09 IST" name="test_user_login" finished-at="2024-01-08T16:07:11 IST" duration-ms="2310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_user_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@4e928fbf]" started-at="2024-01-08T12:11:04 IST" name="tearDown" finished-at="2024-01-08T12:11:04 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@239105a8]" started-at="2024-01-08T16:07:11 IST" name="tearDown" finished-at="2024-01-08T16:07:12 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_Login -->
       <class name="testCases.TC_001_AccountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@4f4c4b1a]" started-at="2024-01-08T12:10:52 IST" name="setup" finished-at="2024-01-08T12:10:55 IST" duration-ms="2452" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@39b43d60]" started-at="2024-01-08T16:07:00 IST" name="setup" finished-at="2024-01-08T16:07:02 IST" duration-ms="2472" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -209,17 +133,17 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@4f4c4b1a]" started-at="2024-01-08T12:10:55 IST" name="test_account_registration" finished-at="2024-01-08T12:11:00 IST" duration-ms="5540" status="PASS">
+        <test-method signature="test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistration@39b43d60]" started-at="2024-01-08T16:07:02 IST" name="test_account_registration" finished-at="2024-01-08T16:07:08 IST" duration-ms="5171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@4f4c4b1a]" started-at="2024-01-08T12:11:00 IST" name="tearDown" finished-at="2024-01-08T12:11:00 IST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@39b43d60]" started-at="2024-01-08T16:07:08 IST" name="tearDown" finished-at="2024-01-08T16:07:08 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_AccountRegistration -->
       <class name="testCases.TC_009_FrgtPwdWithInvalidEmailAdd">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_009_FrgtPwdWithInvalidEmailAdd@1130520d]" started-at="2024-01-08T12:12:11 IST" name="setup" finished-at="2024-01-08T12:12:12 IST" duration-ms="1185" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_009_FrgtPwdWithInvalidEmailAdd@23202fce]" started-at="2024-01-08T16:07:58 IST" name="setup" finished-at="2024-01-08T16:07:59 IST" duration-ms="967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -230,17 +154,17 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="FrgtPwdWithInvalidEmailAdd()[pri:0, instance:testCases.TC_009_FrgtPwdWithInvalidEmailAdd@1130520d]" started-at="2024-01-08T12:12:12 IST" name="FrgtPwdWithInvalidEmailAdd" finished-at="2024-01-08T12:12:14 IST" duration-ms="2610" status="PASS">
+        <test-method signature="FrgtPwdWithInvalidEmailAdd()[pri:0, instance:testCases.TC_009_FrgtPwdWithInvalidEmailAdd@23202fce]" started-at="2024-01-08T16:07:59 IST" name="FrgtPwdWithInvalidEmailAdd" finished-at="2024-01-08T16:08:02 IST" duration-ms="2551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FrgtPwdWithInvalidEmailAdd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_009_FrgtPwdWithInvalidEmailAdd@1130520d]" started-at="2024-01-08T12:12:14 IST" name="tearDown" finished-at="2024-01-08T12:12:15 IST" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_009_FrgtPwdWithInvalidEmailAdd@23202fce]" started-at="2024-01-08T16:08:02 IST" name="tearDown" finished-at="2024-01-08T16:08:02 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_009_FrgtPwdWithInvalidEmailAdd -->
       <class name="testCases.TC_006_CompaireProducts">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_CompaireProducts@748741cb]" started-at="2024-01-08T12:11:21 IST" name="setup" finished-at="2024-01-08T12:11:22 IST" duration-ms="955" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_CompaireProducts@7d94beb9]" started-at="2024-01-08T16:07:25 IST" name="setup" finished-at="2024-01-08T16:07:26 IST" duration-ms="1072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,11 +175,11 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CompaireProducts()[pri:0, instance:testCases.TC_006_CompaireProducts@748741cb]" started-at="2024-01-08T12:11:22 IST" name="CompaireProducts" finished-at="2024-01-08T12:11:39 IST" duration-ms="17529" status="PASS">
+        <test-method signature="CompaireProducts()[pri:0, instance:testCases.TC_006_CompaireProducts@7d94beb9]" started-at="2024-01-08T16:07:26 IST" name="CompaireProducts" finished-at="2024-01-08T16:07:36 IST" duration-ms="9812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompaireProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_CompaireProducts@748741cb]" started-at="2024-01-08T12:11:39 IST" name="tearDown" finished-at="2024-01-08T12:11:39 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_CompaireProducts@7d94beb9]" started-at="2024-01-08T16:07:36 IST" name="tearDown" finished-at="2024-01-08T16:07:36 IST" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -20,10 +20,9 @@ public class TC_003_login_DataDriven_Testing extends BaseClass
 	@Test(dataProvider="LoginTest", groups= {"ddt"})
 	public void login_DataDriven(String email, String pwd, String exp)
 	{
-		System.out.println(email + pwd + exp);
+		logger.info("Starting TC_003_login_DataDriven_Testing");
 		try
 		{
-		logger.info("open URL");
 		driver.get(rb.getString("file_appURL"));
 		driver.manage().window().maximize();
 		

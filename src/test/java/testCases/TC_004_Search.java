@@ -16,10 +16,11 @@ public class TC_004_Search extends BaseClass
 	@Test
 	public void search_fetaure() throws IOException
 	{
+		logger.info("Starting TC_004_Search");
 		try {
 		driver.get(rb.getString("file_appURL"));
 		driver.manage().window().maximize();
-		logger.info("Homepage displayed");
+
 		
 		HomePage hp=new HomePage(driver);
 		hp.searchBox("Canon EOS 5D");

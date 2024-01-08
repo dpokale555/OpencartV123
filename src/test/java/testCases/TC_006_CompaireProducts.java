@@ -16,6 +16,8 @@ public class TC_006_CompaireProducts extends BaseClass {
 
 	@Test
 	public void CompaireProducts() throws InterruptedException {
+		
+		logger.info("Starting TC_006_CompaireProducts");
 		try {
 			
 			driver.get(rb.getString("file_appURL"));
@@ -27,11 +29,12 @@ public class TC_006_CompaireProducts extends BaseClass {
 			Thread.sleep(2000);
 			ComponentsPage cp = new ComponentsPage(driver);
 			cp.clickprod1();
+			Thread.sleep(2000);
 			cp.clickprod2();
 			scrollingToStartPage();
 			Thread.sleep(3000);
 			cp.clickProdCmpr();
-			logger.info("click on prod compaire button");
+
 			String actl_prod1=cp.getTextprod1();
 			String actl_prod2=cp.getTextprod2();
 			
@@ -53,6 +56,7 @@ public class TC_006_CompaireProducts extends BaseClass {
 
 		} catch (Exception e) {
 			e.printStackTrace();
+			Assert.fail();
 		}
 
 	}

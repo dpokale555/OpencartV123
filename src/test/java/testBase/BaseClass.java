@@ -67,12 +67,8 @@ public class BaseClass {
 		return (generatedString);
 	}
 
-	public int randomeNumber() {
-		String generatedString2 = RandomStringUtils.randomNumeric(5);
-		return (Integer.parseInt(generatedString2));
-	}
 	
-	public int randomeNumber2() {
+	public int randomNumber() {
 		Random random=new Random();
 		int randomenumber=random.nextInt(9)+1;
 		System.out.println("random number is:"+randomenumber);

@@ -3,6 +3,7 @@ package testCases;
 import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,22 +13,19 @@ import testBase.BaseClass;
 
 public class TC_001_AccountRegistration extends BaseClass {
 	
-	
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TC_001_AccountRegistration.class);
 
 	@Test(groups= {"regression","master"})
 	public void test_account_registration() throws InterruptedException, IOException 
 	
 	{
-		logger.debug("debug logs.....");
 		logger.info("Starting TC_001_AccountRegistration");
 		try
 		{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		logger.info("Launching the application");
 		driver.get(rb.getString("file_appURL"));  //fetched data from config proeprties file
 		driver.manage().window().maximize();
 		
-		logger.info("Clicking on MyInfo -->Registration link");
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();
 		hp.clickRegister();
@@ -68,7 +66,7 @@ public class TC_001_AccountRegistration extends BaseClass {
 		catch (Exception e)
 		{
 			captureScreen(driver, "test_account_registration");
-			logger.fatal("Registration test case failed");
+			e.printStackTrace();
 			Assert.fail();
 		}
 	}

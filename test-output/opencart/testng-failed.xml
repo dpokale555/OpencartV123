@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_login_DataDriven_Testing">
+      <class name="testCases.TC_007_AddInWishlist">
         <methods>
-          <include name="login_DataDriven"/>
           <include name="tearDown"/>
+          <include name="AddInWishlist"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_003_login_DataDriven_Testing -->
+      </class> <!-- testCases.TC_007_AddInWishlist -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [opencart] -->

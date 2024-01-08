@@ -19,6 +19,7 @@ public class TC_009_FrgtPwdWithInvalidEmailAdd extends BaseClass {
 	public void FrgtPwdWithInvalidEmailAdd() throws InterruptedException, IOException
 	{
 	
+		logger.info("Starting TC_009_FrgtPwdWithInvalidEmailAdd");
 	try
 	{
 	driver.get(rb.getString("file_appURL"));
@@ -51,6 +52,7 @@ public class TC_009_FrgtPwdWithInvalidEmailAdd extends BaseClass {
 	catch (Exception e)
 	{
 		e.printStackTrace();
+		Assert.fail();
 	}
 	
 	

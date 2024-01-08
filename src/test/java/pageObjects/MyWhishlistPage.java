@@ -18,7 +18,7 @@ WebDriver driver;
     @FindBy(xpath="//a[normalize-space()='HTC Touch HD']")
     WebElement item1text;
     
-    @FindBy(xpath="g//a[normalize-space()='iPhone']")
+    @FindBy(xpath="//a[normalize-space()='iPhone']")
     WebElement item2text;
     
     public String getTextItem1()

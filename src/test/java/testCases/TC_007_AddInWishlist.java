@@ -19,6 +19,7 @@ public class TC_007_AddInWishlist extends BaseClass {
 	@Test
 	public void AddInWishlist() throws InterruptedException, IOException {
 		
+		logger.info("Starting TC_007_AddInWishlist");
 		try {
 		driver.get(rb.getString("file_appURL"));
 		driver.manage().window().maximize();
@@ -36,8 +37,9 @@ public class TC_007_AddInWishlist extends BaseClass {
 		Thread.sleep(3000);
 		hp.ClickProductCategoryPhnPDA();
 		scrollingToEndPage();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		pp.clickPhone1WishBtn();
+		Thread.sleep(2000);
 		pp.clickPhone2WishBtn();
 		scrollingToStartPage();
 		Thread.sleep(5000);
@@ -62,6 +64,7 @@ public class TC_007_AddInWishlist extends BaseClass {
 		catch (Exception e)
 		{
 			e.printStackTrace();
+			Assert.fail();
 		}
 		
 	}

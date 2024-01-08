@@ -28,6 +28,11 @@ public class ProductsPage {
 	@FindBy(name="quantity")
 	WebElement ProdQty;
 	
+	public void clearQty()
+	{
+		ProdQty.clear();
+	}
+	
 	public void SelectQty(String Qty)
 	{
 		ProdQty.sendKeys(Qty);
