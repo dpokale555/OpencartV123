@@ -23,10 +23,10 @@ public class ComponentsPage {
 	@FindBy(xpath="//a[normalize-space()='Samsung SyncMaster 941BW']")
 	WebElement prod2text;
 
-	@FindBy(xpath="/html[1]/body[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/button[3]")
+	@FindBy(xpath="//div[@id='content']//div[1]//div[1]//div[2]//form[1]//div[1]//button[3]")
 	WebElement Moniter1;
 	
-	@FindBy(xpath="/html[1]/body[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[2]/form[1]/div[1]/button[3]")
+	@FindBy(xpath="//div[@id='content']//div[2]//div[1]//div[2]//form[1]//div[1]//button[3]")
 	WebElement Moniter2;
 	
 	@FindBy(xpath="//a[@id='compare-total']")
