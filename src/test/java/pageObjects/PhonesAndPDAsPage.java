@@ -19,6 +19,7 @@ WebDriver driver;
 	@FindBy(xpath="//div[@id='product-list']//div[1]//div[1]//div[2]//form[1]//div[1]//button[2]//i[1]")
 	WebElement Phone1WishBtn;
 	
+	
 	@FindBy(xpath="//div[@id='product-list']//div[2]//div[1]//div[2]//form[1]//div[1]//button[2]//i[1]")
 	WebElement Phone2WishBtn;
 	

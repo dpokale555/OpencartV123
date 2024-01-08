@@ -34,16 +34,25 @@ public class TC_007_AddInWishlist extends BaseClass {
 		lp.setLgnemail(rb.getString("file_email"));
 		lp.setLgnPassword(rb.getString("file_password"));
 		lp.clicKLogin();
-		Thread.sleep(3000);
+		logger.info("Login Success");
+		Thread.sleep(2000);
 		hp.ClickProductCategoryPhnPDA();
 		scrollingToEndPage();
-		Thread.sleep(2000);
+		logger.info("Scrolling down");
+		Thread.sleep(3000);
+		logger.info("Waiting1");
 		pp.clickPhone1WishBtn();
-		Thread.sleep(2000);
+		logger.info("Add 1st product");
+		Thread.sleep(3000);
+		logger.info("waitimg2");
 		pp.clickPhone2WishBtn();
+		logger.info("Add 2nd product");
 		scrollingToStartPage();
+		logger.info("Scrolling up");
 		Thread.sleep(5000);
+		logger.info("waiting 3");
 		hp.ClickWishlistbtn();
+		logger.info("Click on wish btn");
 		
 		String act_prod1=pp.getTextprod1();
 		String act_prod2=pp.getTextprod2();

@@ -10,8 +10,8 @@
       <class name="testCases.TC_007_AddInWishlist">
         <methods>
           <include name="tearDown"/>
-          <include name="AddInWishlist"/>
           <include name="setup"/>
+          <include name="AddInWishlist"/>
         </methods>
       </class> <!-- testCases.TC_007_AddInWishlist -->
     </classes>
