@@ -27,6 +27,12 @@ public class LoginPage {
 	@FindBy(xpath="//h2[normalize-space()='My Account']")
 	WebElement msgHeading;
 	
+	@FindBy(xpath="//div[@class='mb-3']//a[normalize-space()='Forgotten Password']")
+	WebElement frgetPwd;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement frgetCnfrmMsg;
+	
 	public void setLgnemail(String lgname)
 	{
 		lognname.sendKeys(lgname);
@@ -52,6 +58,16 @@ public class LoginPage {
 		{
 			return(false);
 		}
+	}
+	
+	public void ClickFrgtPwd()
+	{
+		frgetPwd.click();
+	}
+	
+	public String getFrgtPswdCnfrmMsg()
+	{
+		return frgetCnfrmMsg.getText();
 	}
 
 }

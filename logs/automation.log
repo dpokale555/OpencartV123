@@ -1,230 +1,155 @@
-2023-12-03 14:58:03.957 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-03 14:58:04.621 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-03 14:58:04.731 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-03 14:58:04.825 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-03 14:58:04.919 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-03 14:58:05.004 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-03 14:58:08.031 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-03 14:58:08.103 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-03 14:58:08.186 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-03 14:58:09.014 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-03 14:58:10.133 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-03 14:58:10.884 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-03 14:58:12.416 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-03 14:58:37.472 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-03 14:58:37.476 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-03 14:58:37.476 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-03 14:58:38.124 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-03 14:58:38.763 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-03 14:58:38.858 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-03 14:58:38.941 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-03 14:58:39.032 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-03 14:58:39.123 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-03 14:58:42.149 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-03 14:58:42.220 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-03 14:58:42.317 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-03 14:58:42.975 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-03 14:58:44.105 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-03 14:58:44.686 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-03 14:58:45.989 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-03 15:00:42.823 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-03 15:00:42.827 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-03 15:00:42.827 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-03 15:00:43.598 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-03 15:00:44.266 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-03 15:00:44.382 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-03 15:00:44.480 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-03 15:00:44.573 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-03 15:00:44.655 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-03 15:00:47.677 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-03 15:00:47.753 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-03 15:00:47.840 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-03 15:00:48.656 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-03 15:00:49.754 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-03 15:00:50.433 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-03 15:00:51.951 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 11:58:26.050 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 11:58:26.052 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 11:58:26.053 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 11:58:27.300 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 11:58:28.092 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 11:58:28.200 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 11:58:28.301 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 11:58:28.405 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 11:58:28.486 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 11:58:31.506 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 11:58:31.571 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 11:58:31.659 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 11:58:32.580 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 11:58:33.954 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 11:58:34.963 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 11:58:36.804 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 12:31:16.918 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 12:31:16.920 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 12:31:16.921 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 12:31:17.875 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 12:31:18.572 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 12:31:18.683 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 12:31:18.769 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 12:31:18.859 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 12:31:18.942 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 12:31:21.953 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 12:31:22.008 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 12:31:22.095 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 12:31:22.730 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 12:31:24.157 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 12:31:25.021 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 12:31:26.575 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 12:56:11.687 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 12:56:11.690 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 12:56:11.690 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 12:56:12.754 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 12:56:13.404 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 12:56:13.534 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 12:56:13.621 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 12:56:13.701 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 12:56:13.769 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 12:56:16.794 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 12:56:16.857 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 12:56:16.951 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 12:56:17.597 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 12:56:18.968 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 12:56:19.811 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 12:56:21.158 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 12:56:42.536 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 12:56:42.538 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 12:56:42.538 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 12:56:43.293 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 12:56:43.932 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 12:56:44.054 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 12:56:44.130 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 12:56:44.215 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 12:56:44.289 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 12:56:47.298 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 12:56:47.360 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 12:56:47.442 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 12:56:48.061 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 12:56:49.469 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 12:56:50.391 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 12:56:51.822 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 14:18:06.509 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:18:06.702 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-12-04 14:18:06.706 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2023-12-04 14:18:06.708 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-12-04 14:25:05.935 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:37:04.604 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:37:39.562 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:40:27.651 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:42:54.252 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 14:42:54.257 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 14:42:54.258 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 14:42:55.897 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 14:42:56.659 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 14:42:56.781 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 14:42:56.864 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 14:42:56.964 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 14:42:57.046 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 14:43:00.074 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 14:43:00.141 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 14:43:00.209 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 14:43:00.850 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 14:43:02.226 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 14:43:03.092 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 14:43:04.651 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 14:44:11.115 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:45:08.384 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:47:42.642 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:49:50.848 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:49:50.850 [main] DEBUG testCases.TC_003_login_DataDriven_Testing - sheet reading
-2023-12-04 14:50:59.906 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:50:59.911 [main] TRACE testCases.TC_003_login_DataDriven_Testing - sheet reading
-2023-12-04 14:54:05.355 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:54:40.804 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:55:04.324 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:58:39.567 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 14:58:39.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-2023-12-04 14:58:39.735 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2023-12-04 14:58:39.737 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-2023-12-04 15:02:26.406 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:04:49.124 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:07:41.846 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:07:41.850 [main] INFO  testCases.TC_003_login_DataDriven_Testing - sheet reading
-2023-12-04 15:08:54.098 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:14:03.927 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:21:11.859 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:23:52.703 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:25:12.041 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:26:55.793 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:29:43.023 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:35:24.134 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path file
-2023-12-04 15:37:45.202 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path reading
-2023-12-04 15:39:59.847 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path reading
-2023-12-04 15:43:49.887 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 15:43:49.894 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 15:43:49.895 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 15:43:50.916 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 15:43:51.739 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 15:43:51.861 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 15:43:51.965 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 15:43:52.112 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 15:43:52.234 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 15:43:55.261 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 15:43:55.361 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 15:43:55.498 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 15:43:56.128 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 15:43:57.864 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 15:43:58.977 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 15:44:01.165 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 16:11:42.175 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 16:11:42.183 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 16:11:42.184 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 16:11:44.729 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 16:11:46.477 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 16:11:46.834 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 16:11:47.019 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 16:11:47.234 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 16:11:47.502 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 16:11:50.599 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 16:11:50.698 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 16:11:50.881 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 16:11:51.880 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 16:11:54.362 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 16:11:57.475 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 16:12:02.138 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 16:14:36.223 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 16:14:36.228 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 16:14:36.228 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 16:14:37.527 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 16:14:38.662 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 16:14:38.849 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 16:14:38.957 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 16:14:39.089 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 16:14:39.179 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 16:14:42.202 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 16:14:42.290 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 16:14:42.420 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 16:14:43.372 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 16:14:45.640 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 16:14:46.987 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 16:14:49.118 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 16:16:08.950 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
-2023-12-04 16:16:08.954 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
-2023-12-04 16:16:08.955 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
-2023-12-04 16:16:10.111 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
-2023-12-04 16:16:11.102 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
-2023-12-04 16:16:11.236 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
-2023-12-04 16:16:11.388 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
-2023-12-04 16:16:11.536 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
-2023-12-04 16:16:11.667 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
-2023-12-04 16:16:14.704 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
-2023-12-04 16:16:14.798 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
-2023-12-04 16:16:14.914 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
-2023-12-04 16:16:15.698 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
-2023-12-04 16:16:17.681 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-04 16:16:18.990 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-04 16:16:21.212 [main] INFO  testCases.TC_002_Login - Loggin is Success
-2023-12-04 16:16:58.542 [main] INFO  testCases.TC_003_login_DataDriven_Testing - file path reading
-2023-12-04 16:17:47.396 [main] DEBUG testCases.TC_003_login_DataDriven_Testing - file path reading
-2023-12-05 10:41:26.872 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
-2023-12-05 10:41:28.400 [main] INFO  testCases.TC_002_Login - Homepage displayed
-2023-12-05 10:41:30.697 [main] INFO  testCases.TC_002_Login - Loggin is Success
+2024-01-02 18:07:47.503 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:09:19.084 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:09:19.871 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:09:20.262 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:09:20.472 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:09:20.543 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:09:23.581 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:09:23.647 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:09:49.736 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:09:50.528 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:09:50.933 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:09:51.132 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:09:51.213 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:09:54.248 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:09:54.306 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:12:27.475 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:12:28.168 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:12:28.527 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:12:28.716 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:12:28.808 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:12:31.851 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:12:31.916 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:12:31.917 [main] INFO  testCases.TC_005_AddItemInCard - waiting
+2024-01-02 18:13:38.715 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:13:39.376 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:13:39.747 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:13:39.949 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:13:40.027 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:13:43.065 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:13:43.117 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:13:43.121 [main] INFO  testCases.TC_005_AddItemInCard - waiting
+2024-01-02 18:14:21.128 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:14:21.873 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:14:22.260 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:14:22.472 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:14:22.544 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:14:25.579 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:14:25.636 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:14:54.074 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:14:54.821 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:14:55.183 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:14:55.382 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:14:55.453 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:14:58.500 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:14:58.565 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:15:25.606 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:15:26.261 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:15:26.638 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:15:26.842 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:15:26.929 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:15:29.964 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:15:30.032 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:18:55.031 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:18:55.864 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:18:56.270 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:18:56.481 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:18:56.564 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:18:59.605 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:18:59.669 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:18:59.676 [main] INFO  testCases.TC_005_AddItemInCard - waiting1
+2024-01-02 18:19:53.725 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:19:54.518 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:19:54.961 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:19:55.193 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:19:55.268 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:19:58.308 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:19:58.365 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:19:58.370 [main] INFO  testCases.TC_005_AddItemInCard - waiting1
+2024-01-02 18:21:03.940 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-02 18:21:04.616 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-02 18:21:04.984 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-02 18:21:05.189 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-02 18:21:05.278 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-02 18:21:08.322 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-02 18:21:08.385 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-02 18:21:08.389 [main] INFO  testCases.TC_005_AddItemInCard - waiting1
+2024-01-04 12:06:46.203 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 12:10:15.870 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 12:10:17.033 [main] INFO  testCases.TC_006_CompaireProducts - Category Selected
+2024-01-04 12:10:20.151 [main] INFO  testCases.TC_006_CompaireProducts - prod1 added in list
+2024-01-04 12:10:20.230 [main] INFO  testCases.TC_006_CompaireProducts - prod2 added in list
+2024-01-04 12:26:44.612 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 12:26:45.711 [main] INFO  testCases.TC_006_CompaireProducts - Category Selected
+2024-01-04 12:26:47.812 [main] INFO  testCases.TC_006_CompaireProducts - prod1 added in list
+2024-01-04 12:26:47.913 [main] INFO  testCases.TC_006_CompaireProducts - prod2 added in list
+2024-01-04 12:29:40.273 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 12:29:41.441 [main] INFO  testCases.TC_006_CompaireProducts - Category Selected
+2024-01-04 12:29:43.564 [main] INFO  testCases.TC_006_CompaireProducts - prod1 added in list
+2024-01-04 12:29:43.670 [main] INFO  testCases.TC_006_CompaireProducts - prod2 added in list
+2024-01-04 12:47:04.657 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 12:47:06.006 [main] INFO  testCases.TC_006_CompaireProducts - Category Selected
+2024-01-04 12:47:08.121 [main] INFO  testCases.TC_006_CompaireProducts - prod1 added in list
+2024-01-04 12:47:08.206 [main] INFO  testCases.TC_006_CompaireProducts - prod2 added in list
+2024-01-04 15:28:53.113 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 15:28:54.424 [main] INFO  testCases.TC_006_CompaireProducts - Category Selected
+2024-01-04 15:28:56.628 [main] INFO  testCases.TC_006_CompaireProducts - prod1 added in list
+2024-01-04 15:28:56.759 [main] INFO  testCases.TC_006_CompaireProducts - prod2 added in list
+2024-01-04 15:29:47.039 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 15:29:48.333 [main] INFO  testCases.TC_006_CompaireProducts - Category Selected
+2024-01-04 15:29:50.542 [main] INFO  testCases.TC_006_CompaireProducts - prod1 added in list
+2024-01-04 15:29:50.681 [main] INFO  testCases.TC_006_CompaireProducts - prod2 added in list
+2024-01-04 15:29:50.699 [main] INFO  testCases.TC_006_CompaireProducts - Scrolling up
+2024-01-04 15:31:15.239 [main] INFO  testCases.TC_006_CompaireProducts - Homepage displayed
+2024-01-04 15:31:16.554 [main] INFO  testCases.TC_006_CompaireProducts - Category Selected
+2024-01-04 15:31:18.738 [main] INFO  testCases.TC_006_CompaireProducts - prod1 added in list
+2024-01-04 15:31:18.892 [main] INFO  testCases.TC_006_CompaireProducts - prod2 added in list
+2024-01-04 15:31:18.913 [main] INFO  testCases.TC_006_CompaireProducts - Scrolling up
+2024-01-04 15:49:53.242 [main] INFO  testCases.TC_006_CompaireProducts - prod compr page
+2024-01-04 15:51:48.417 [main] INFO  testCases.TC_006_CompaireProducts - prod compr page
+2024-01-04 15:52:17.288 [main] INFO  testCases.TC_006_CompaireProducts - prod compr page
+2024-01-04 16:32:29.955 [main] INFO  testCases.TC_006_CompaireProducts - prod compr page
+2024-01-04 16:39:55.253 [main] INFO  testCases.TC_006_CompaireProducts - prod compr page
+2024-01-04 18:04:29.017 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-04 18:04:29.888 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-04 18:04:30.330 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-04 18:04:30.554 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-04 18:04:30.639 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-04 18:04:33.679 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-04 18:04:33.731 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-04 18:04:33.735 [main] INFO  testCases.TC_005_AddItemInCard - waiting1
+2024-01-05 16:20:26.638 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-05 16:20:27.989 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-05 16:20:28.519 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-05 16:20:28.897 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-05 16:20:29.090 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-05 16:20:32.155 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-05 16:20:32.268 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-05 16:20:32.299 [main] INFO  testCases.TC_005_AddItemInCard - waiting1
+2024-01-05 16:33:24.785 [main] INFO  testCases.TC_005_AddItemInCard - Homepage displayed
+2024-01-05 16:33:25.837 [main] INFO  testCases.TC_005_AddItemInCard - item serach
+2024-01-05 16:33:26.321 [main] INFO  testCases.TC_005_AddItemInCard - item selected
+2024-01-05 16:33:26.718 [main] INFO  testCases.TC_005_AddItemInCard - dropdown selected
+2024-01-05 16:33:26.885 [main] INFO  testCases.TC_005_AddItemInCard - Qty selected
+2024-01-05 16:33:29.981 [main] INFO  testCases.TC_005_AddItemInCard - Scrolling
+2024-01-05 16:33:30.114 [main] INFO  testCases.TC_005_AddItemInCard - Added in cart
+2024-01-05 16:33:30.146 [main] INFO  testCases.TC_005_AddItemInCard - waiting1
+2024-01-08 12:10:55.099 [main] DEBUG testCases.TC_001_AccountRegistration - debug logs.....
+2024-01-08 12:10:55.102 [main] INFO  testCases.TC_001_AccountRegistration - Starting TC_001_AccountRegistration
+2024-01-08 12:10:55.103 [main] INFO  testCases.TC_001_AccountRegistration - Launching the application
+2024-01-08 12:10:55.838 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on MyInfo -->Registration link
+2024-01-08 12:10:56.417 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Name
+2024-01-08 12:10:56.513 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Lastname
+2024-01-08 12:10:56.597 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer email Id
+2024-01-08 12:10:56.679 [main] INFO  testCases.TC_001_AccountRegistration - Providing customer Pswd
+2024-01-08 12:10:56.749 [main] INFO  testCases.TC_001_AccountRegistration - Scrolling Down
+2024-01-08 12:10:59.776 [main] INFO  testCases.TC_001_AccountRegistration - Accepting Privacy policy
+2024-01-08 12:10:59.848 [main] INFO  testCases.TC_001_AccountRegistration - Clicking on continue
+2024-01-08 12:10:59.917 [main] INFO  testCases.TC_001_AccountRegistration - Validation started
+2024-01-08 12:11:00.625 [main] INFO  testCases.TC_001_AccountRegistration - Registration Testcase and Validation passed
+2024-01-08 12:11:01.964 [main] INFO  testCases.TC_002_Login - Starting TC_002_Login
+2024-01-08 12:11:02.711 [main] INFO  testCases.TC_002_Login - Homepage displayed
+2024-01-08 12:11:04.211 [main] INFO  testCases.TC_002_Login - Loggin is Success
+2024-01-08 12:11:05.509 [main] DEBUG testCases.TC_003_login_DataDriven_Testing - file path reading
+2024-01-08 12:11:07.638 [main] INFO  testCases.TC_004_Search - Homepage displayed
+2024-01-08 12:11:08.607 [main] INFO  testCases.TC_004_Search - Item Found

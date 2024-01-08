@@ -1,0 +1,26 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class SerachPage {
+	
+	WebDriver driver;
+	
+
+	public SerachPage(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(xpath="//img[@title='Canon EOS 5D']")
+	WebElement SearchItem;
+	
+	public void ClickSrchItem()
+	{
+		SearchItem.click();
+	}
+}

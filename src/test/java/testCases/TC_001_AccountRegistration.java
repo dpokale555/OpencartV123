@@ -11,6 +11,8 @@ import pageObjects.HomePage;
 import testBase.BaseClass;
 
 public class TC_001_AccountRegistration extends BaseClass {
+	
+	
 
 	@Test(groups= {"regression","master"})
 	public void test_account_registration() throws InterruptedException, IOException 

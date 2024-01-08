@@ -1,5 +1,6 @@
 package testCases;
 
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
@@ -9,6 +10,9 @@ import testBase.BaseClass;
 public class TC_002_Login extends BaseClass
 
 {
+	
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TC_002_Login.class);
+	
 	@Test (groups= {"sanity","master"})
 	public void test_user_login()
 	{
