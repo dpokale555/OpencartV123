@@ -1,10 +1,10 @@
-testCases\TC_003_login_DataDriven_Testing.class
-pageObjects\LoginPage.class
-utilities\XLUtility.class
-pageObjects\AccountRegisterationPage.class
-utilities\ExtentReportManager.class
 pageObjects\HomePage.class
 testCases\TC_002_Login.class
 pageObjects\MyAccountPage.class
 testBase\BaseClass.class
 testCases\TC_001_AccountRegistration.class
+testCases\TC_003_login_DataDriven_Testing.class
+pageObjects\AccountRegisterationPage.class
+pageObjects\LoginPage.class
+utilities\XLUtility.class
+utilities\ExtentReportManager.class

@@ -19,7 +19,7 @@ public class TC_001_AccountRegistration extends BaseClass {
 	public void test_account_registration() throws InterruptedException, IOException 
 	
 	{
-		logger.info("Starting TC_001_AccountRegistration testcase");
+		logger.info("Starting TC_001_AccountRegistration");
 		try
 		{
 		driver.get(rb.getString("file_appURL"));  //fetched data from config proeprties file
