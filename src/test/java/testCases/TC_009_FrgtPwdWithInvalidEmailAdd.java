@@ -51,10 +51,10 @@ public class TC_009_FrgtPwdWithInvalidEmailAdd extends BaseClass {
 	}
 	catch (Exception e)
 	{
+		captureScreen(driver, "FrgtPwdWithInvalidEmailAdd");
 		e.printStackTrace();
 		Assert.fail();
 	}
-	
 	
 	}
 

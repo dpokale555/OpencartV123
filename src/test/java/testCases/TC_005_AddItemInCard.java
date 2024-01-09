@@ -71,6 +71,7 @@ public class TC_005_AddItemInCard extends BaseClass {
 	  }
 		catch (Exception e)
 		{
+			captureScreen(driver, "AddItemInCard");
 			e.printStackTrace();
 			Assert.fail();
 		}  

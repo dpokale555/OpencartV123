@@ -50,6 +50,7 @@ private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TC_008_Fo
 		}
 		catch (Exception e)
 		{
+			captureScreen(driver, "ForgetPassword");
 			e.printStackTrace();
 			Assert.fail();
 		}

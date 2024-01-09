@@ -22,7 +22,6 @@ public class TC_001_AccountRegistration extends BaseClass {
 		logger.info("Starting TC_001_AccountRegistration");
 		try
 		{
-		JavascriptExecutor js = (JavascriptExecutor) driver;
 		driver.get(rb.getString("file_appURL"));  //fetched data from config proeprties file
 		driver.manage().window().maximize();
 		
@@ -41,7 +40,7 @@ public class TC_001_AccountRegistration extends BaseClass {
 		logger.info("Providing customer Pswd");
 		regpage.setPassword("Test123");
 		logger.info("Scrolling Down");
-		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+		scrollingToEndPage();
 		Thread.sleep(3000);
 		logger.info("Accepting Privacy policy");
 		regpage.setPrivacyPolicy();

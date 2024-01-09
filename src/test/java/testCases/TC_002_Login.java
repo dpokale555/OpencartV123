@@ -1,5 +1,7 @@
 package testCases;
 
+import java.io.IOException;
+
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,7 +16,7 @@ public class TC_002_Login extends BaseClass
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TC_002_Login.class);
 	
 	@Test (groups= {"sanity","master"})
-	public void test_user_login()
+	public void test_user_login() throws IOException
 	{
 		logger.info("Starting TC_002_Login");
 		try 
@@ -48,6 +50,7 @@ public class TC_002_Login extends BaseClass
 	}
 	catch (Exception e)
 		{
+			captureScreen(driver, "test_user_login");
 			e.printStackTrace();
 			Assert.fail();
 		}

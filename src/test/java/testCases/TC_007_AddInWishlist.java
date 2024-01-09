@@ -72,6 +72,7 @@ public class TC_007_AddInWishlist extends BaseClass {
 		}
 		catch (Exception e)
 		{
+			captureScreen(driver, "AddInWishlist");
 			e.printStackTrace();
 			Assert.fail();
 		}

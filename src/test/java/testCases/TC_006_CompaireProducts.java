@@ -1,5 +1,7 @@
 package testCases;
 
+import java.io.IOException;
+
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,7 +17,7 @@ public class TC_006_CompaireProducts extends BaseClass {
 	
 
 	@Test
-	public void CompaireProducts() throws InterruptedException {
+	public void CompaireProducts() throws InterruptedException, IOException {
 		
 		logger.info("Starting TC_006_CompaireProducts");
 		try {
@@ -54,7 +56,9 @@ public class TC_006_CompaireProducts extends BaseClass {
 				Assert.assertTrue(false);
 			}			
 
-		} catch (Exception e) {
+		} catch (Exception e) 
+		{
+			captureScreen(driver, "CompaireProducts");
 			e.printStackTrace();
 			Assert.fail();
 		}
