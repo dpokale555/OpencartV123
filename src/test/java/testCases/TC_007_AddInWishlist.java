@@ -39,7 +39,7 @@ public class TC_007_AddInWishlist extends BaseClass {
 		hp.ClickProductCategoryPhnPDA();
 		scrollingToEndPage();
 		logger.info("Scrolling down");
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		logger.info("Waiting1");
 		pp.clickPhone1WishBtn();
 		logger.info("Add 1st product");
