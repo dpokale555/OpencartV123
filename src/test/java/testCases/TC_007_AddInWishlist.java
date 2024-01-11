@@ -37,6 +37,7 @@ public class TC_007_AddInWishlist extends BaseClass {
 		logger.info("Login Success");
 		Thread.sleep(2000);
 		hp.ClickProductCategoryPhnPDA();
+		Thread.sleep(2000);
 		scrollingToEndPage();
 		logger.info("Scrolling down");
 		Thread.sleep(4000);
