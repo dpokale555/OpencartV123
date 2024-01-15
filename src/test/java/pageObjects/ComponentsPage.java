@@ -1,10 +1,13 @@
 package pageObjects;
 
-import org.openqa.selenium.JavascriptExecutor;
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class ComponentsPage {
 	
@@ -20,6 +23,9 @@ public class ComponentsPage {
 	@FindBy(xpath="//a[normalize-space()='Apple Cinema 30\"']")
 	WebElement prod1text;
 	
+	@FindBy(xpath="//img[@title='Apple Cinema 30\"']")
+	WebElement Moniter1Img;
+	
 	@FindBy(xpath="//a[normalize-space()='Samsung SyncMaster 941BW']")
 	WebElement prod2text;
 
@@ -31,6 +37,9 @@ public class ComponentsPage {
 	
 	@FindBy(xpath="//a[@id='compare-total']")
 	WebElement prodcomprbtn;
+	
+	@FindBy(xpath="//button[@aria-label='Add to Cart']")
+	WebElement Moniter1AddCartBtn;
 	
 	
 	public void clickprod1()
@@ -58,7 +67,10 @@ public class ComponentsPage {
 	{
 		return prod2text.getText();
 	}
-	
 
+	public void clickMoniter1Img()
+	{
+		Moniter1Img.click();
+	}
 	
 }

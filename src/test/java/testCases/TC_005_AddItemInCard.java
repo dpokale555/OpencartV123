@@ -52,11 +52,11 @@ public class TC_005_AddItemInCard extends BaseClass {
 	      
 	    By notificationLocator= By.xpath("//div[@class='alert alert-success alert-dismissible']");
 	 
-	    WebElement notification=wait.until(ExpectedConditions.visibilityOfElementLocated(notificationLocator));
-	 
+	    WebElement notification=wait.until(ExpectedConditions.visibilityOfElementLocated(notificationLocator)); 
 	    
-	    String act_NotificationText=notification.getText();
-	    String expt_NotificationText="Success: You have added Canon EOS 5D to your shopping cart!";
+		String act_NotificationText=notification.getText();
+	    String expt_NotificationText="Success: You have added Canon EOS 5D to your shopping cart!";	 
+	    
 	    
 	    if(act_NotificationText.equals(expt_NotificationText))
 	    {
@@ -75,8 +75,7 @@ public class TC_005_AddItemInCard extends BaseClass {
 			e.printStackTrace();
 			Assert.fail();
 		}  
-       
-		
+	
 	}
 	
 

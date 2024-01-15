@@ -120,4 +120,10 @@ public class HomePage {
 		WishListBtn.click();
 	}
 	
+	@FindBy(xpath="//span[normalize-space()='Shopping Cart']")
+	WebElement ShopingCartBtn;
+	
+	public void ClickShopingCartBtn() {
+		ShopingCartBtn.click();
+	}
 }
