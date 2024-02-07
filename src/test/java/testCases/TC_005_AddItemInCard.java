@@ -3,9 +3,6 @@ package testCases;
 import java.io.IOException;
 import java.time.Duration;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -42,6 +39,7 @@ public class TC_005_AddItemInCard extends BaseClass {
 		pd.SelectDrpdown();
 		pd.clearQty();
 		String randomQty=String.valueOf(randomNumber());
+		Syso
 		pd.SelectQty(randomQty);
 		pd.ScrollingPage();
 		pd.ClickAddBtn();

@@ -46,7 +46,6 @@ public class TC_001_AccountRegistration extends BaseClass {
 		regpage.setPrivacyPolicy();
 		logger.info("Clicking on continue");
 		regpage.clickContinue();
-		
 		logger.info("Validation started");
 		String confrmsg=regpage.getConfirmationMsg();
 		if(confrmsg.equals("Your Account Has Been Created!"))

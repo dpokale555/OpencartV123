@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-15T14:41:56 IST" name="opencart" finished-at="2024-01-15T14:42:01 IST" duration-ms="4341">
+  <suite started-at="2024-01-30T10:47:23 IST" name="opencart" finished-at="2024-01-30T10:48:04 IST" duration-ms="41122">
     <groups>
     </groups>
-    <test started-at="2024-01-15T14:41:56 IST" name="Test" finished-at="2024-01-15T14:42:01 IST" duration-ms="4341">
+    <test started-at="2024-01-30T10:47:23 IST" name="Test" finished-at="2024-01-30T10:48:04 IST" duration-ms="41122">
       <class name="testCases.TC_010_ShoppingCart">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_010_ShoppingCart@15a04efb]" started-at="2024-01-15T14:41:56 IST" name="setup" finished-at="2024-01-15T14:41:59 IST" duration-ms="2664" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_010_ShoppingCart@15a04efb]" started-at="2024-01-30T10:47:23 IST" name="setup" finished-at="2024-01-30T10:47:25 IST" duration-ms="2247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ShoppingCart()[pri:0, instance:testCases.TC_010_ShoppingCart@15a04efb]" started-at="2024-01-15T14:41:59 IST" name="ShoppingCart" finished-at="2024-01-15T14:42:00 IST" duration-ms="932" status="FAIL">
-          <exception class="java.lang.Error">
+        <test-method signature="ShoppingCart()[pri:0, instance:testCases.TC_010_ShoppingCart@15a04efb]" started-at="2024-01-30T10:47:25 IST" name="ShoppingCart" finished-at="2024-01-30T10:48:03 IST" duration-ms="38335" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unresolved compilation problem: 
-Invalid character constant
-]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-Invalid character constant
-
-at pageObjects.ComponentsPage.<init>(ComponentsPage.java:26)
-at testCases.TC_010_ShoppingCart.ShoppingCart(TC_010_ShoppingCart.java:35)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC_010_ShoppingCart.ShoppingCart(TC_010_ShoppingCart.java:93)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,11 +58,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShoppingCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_010_ShoppingCart@15a04efb]" started-at="2024-01-15T14:42:00 IST" name="tearDown" finished-at="2024-01-15T14:42:01 IST" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_010_ShoppingCart@15a04efb]" started-at="2024-01-30T10:48:03 IST" name="tearDown" finished-at="2024-01-30T10:48:04 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

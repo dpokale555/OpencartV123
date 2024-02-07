@@ -23,7 +23,7 @@ public class ShopingCartPage {
 	
 	public String getTextMoniter1txt()
 	{
-		System.out.println(Moniter1txt.getText());
+		logger.info("inside the get text");
 		return Moniter1txt.getText();
 	}
 }

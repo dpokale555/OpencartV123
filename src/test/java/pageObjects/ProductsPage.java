@@ -131,16 +131,25 @@ public class ProductsPage {
 		Moniter1TextBox2.sendKeys(text);
 	}
 	
-	public void setMoniter1FileUploadBtn()
+	public void ScrollingMoniter1FileUploadBtn()
 	{
-		
-		Moniter1FileUploadBtn.sendKeys("C:\\Users\\dhananjay.pokale\\Desktop\\sample CV.pdf");
+		logger.info("Scrolling");
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView();",Moniter1FileUploadBtn);
+		logger.info("Scrolled till the element");
+	}
+	
+	public void setMoniter1FileUploadBtn() throws InterruptedException
+	{
+		//Moniter1FileUploadBtn.sendKeys(Keys.ENTER);
+		logger.info("inside the fileupload");
+		Moniter1FileUploadBtn.sendKeys("C:\\Users\\dhananjay.pokale\\Desktop\\sample.txt");
+		Thread.sleep(10000);
 		logger.info("checking path");
 		/*Alert myalert=driver.switchTo().alert();
 		logger.info("switched to alert poppup");
 		myalert.accept();
 		logger.info("alert accepted");*/
-		
 	}
 	
 	
@@ -239,6 +248,36 @@ public class ProductsPage {
 		Moniter1AddCartBtn.click();
 		logger.info("Element found and click");
 	}
+	
+	
+	
+	
+	
+	
+	@FindBy(xpath="/html[1]/body[1]/div[1]/div[4]/div[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/input[1]")
+	WebElement rrrrt1;
+	
+	@FindBy(xpath="//input[@name='http_submit']")
+	WebElement rrrrt2;
+	
+	
+	public void setrrrrt1() throws InterruptedException
+	{
+		//Moniter1FileUploadBtn.sendKeys(Keys.ENTER);
+		logger.info("inside the fileupload");
+		rrrrt1.sendKeys("C:\\Users\\dhananjay.pokale\\Desktop\\sampletest.txt");
+		Thread.sleep(5000);
+		logger.info("checking path");
+		rrrrt2.click();
+		Thread.sleep(5000);		
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
