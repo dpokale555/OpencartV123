@@ -39,7 +39,6 @@ public class TC_005_AddItemInCard extends BaseClass {
 		pd.SelectDrpdown();
 		pd.clearQty();
 		String randomQty=String.valueOf(randomNumber());
-		Syso
 		pd.SelectQty(randomQty);
 		pd.ScrollingPage();
 		pd.ClickAddBtn();
