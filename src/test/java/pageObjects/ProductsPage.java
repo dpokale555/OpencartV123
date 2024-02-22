@@ -26,7 +26,7 @@ public class ProductsPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	//product page : 
+	//product page :    #Category : 
 	@FindBy(xpath="//select[@id='input-option-226']")
 	WebElement drpProdOptn;
 	
@@ -65,7 +65,7 @@ public class ProductsPage {
 		System.out.println("Waiting");
 	}
 	
-	//product page : Apple Cinema 30"
+	//product page : Apple Cinema 30"   #Category : Components
 	@FindBy(xpath="//input[@id='input-option-value-6']")
 	WebElement Moniter1RadioBtnMedum;
 	
@@ -99,10 +99,8 @@ public class ProductsPage {
 	
 	@FindBy(xpath="//input[@id='input-quantity']")
 	WebElement Moniter1QtyBox;
-	
-	@FindBy(xpath="//button[@id='button-cart']")
-	WebElement Moniter1AddCartBtn;
-	
+
+
 	public void ClickMoniter1RadioBtn()
 	{
 		JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -238,14 +236,14 @@ public class ProductsPage {
 	{
 		logger.info("Scrolling");
 		JavascriptExecutor js=(JavascriptExecutor)driver;
-		js.executeScript("arguments[0].scrollIntoView();",Moniter1AddCartBtn);
+		js.executeScript("arguments[0].scrollIntoView();",AddCartBtn);
 		logger.info("Scrolled till the element");
 	}
 	
 	public void clickMoniter1AddCartBtn()
 	{
 		logger.info("element searching");
-		Moniter1AddCartBtn.click();
+		AddCartBtn.click();
 		logger.info("Element found and click");
 	}
 	
@@ -254,29 +252,22 @@ public class ProductsPage {
 	
 	
 	
-	@FindBy(xpath="/html[1]/body[1]/div[1]/div[4]/div[1]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/input[1]")
-	WebElement rrrrt1;
-	
-	@FindBy(xpath="//input[@name='http_submit']")
-	WebElement rrrrt2;
 	
 	
-	public void setrrrrt1() throws InterruptedException
+	
+	
+	
+	//product page : HTC Touch HD        #Category : Phones & PDAs
+	
+	@FindBy(xpath="//input[@id='input-quantity']")
+	WebElement PhoneHTCTouchHDQtyBox;
+
+	
+	public void QtyBox_PhoneHTCTouchHD()
 	{
-		//Moniter1FileUploadBtn.sendKeys(Keys.ENTER);
-		logger.info("inside the fileupload");
-		rrrrt1.sendKeys("C:\\Users\\dhananjay.pokale\\Desktop\\sampletest.txt");
-		Thread.sleep(5000);
-		logger.info("checking path");
-		rrrrt2.click();
-		Thread.sleep(5000);		
+		PhoneHTCTouchHDQtyBox.clear();
+		PhoneHTCTouchHDQtyBox.sendKeys("2");
 	}
-	
-	
-	
-	
-	
-	
 	
 	
 	
