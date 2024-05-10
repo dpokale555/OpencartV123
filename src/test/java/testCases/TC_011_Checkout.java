@@ -46,8 +46,7 @@ public class TC_011_Checkout extends BaseClass {
 		Thread.sleep(3000);
 		hp.ClickProductCategoryPhnPDA();
 		Thread.sleep(2000);
-		sm.Scrollingprod1CartButton();
-		logger.info("Scrolling till card button");
+		scrollingToEndPage();
 		pap.Clickprod1CartButton();
 		scrollingToStartPage();
 		Thread.sleep(5000);
@@ -56,9 +55,15 @@ public class TC_011_Checkout extends BaseClass {
 		scrollingToEndPage();
 		Thread.sleep(3000);
 		sp.clickEstShipTxesBar();
-		logger.info("clicked on EstShipTxesBar");
 		sp.DrpDownEstShipTxesBarCountry();
-		logger.info("Country selected");
+		logger.info("clicked on Region / State");
+		sp.DrpDownEstShipTxesBarState();
+		logger.info("State selected");
+		sp.SetEstShipTxesBarPostCode("444701");
+		sp.clickEstShipTxesBarGetQuotes();
+		sp.Enable_EstShip_ShipingMethod_RadioBtn();
+		logger.info("radio selected");
+		
 		}
 		catch (Exception e)
 		{

@@ -32,6 +32,12 @@ public class ShopingCartPage {
 	@FindBy(xpath="//select[@id='input-zone']")
 	WebElement EstShipTxesBarState;
 	
+	@FindBy(xpath="//input[@id='input-postcode']")
+	WebElement EstShipTxesBarPostCode;
+	
+	@FindBy(xpath="//button[@id='button-quote']")
+	WebElement EstShipTxesBarGetQuotes;
+	
 	
 	public String getTextMoniter1txt()
 	{
@@ -59,6 +65,33 @@ public class ShopingCartPage {
 		Select cntry=new Select(EstShipTxesBarState);
 		cntry.selectByVisibleText("Maharashtra");
 	}
+	
+	public void SetEstShipTxesBarPostCode(String postcode)
+	{
+		EstShipTxesBarPostCode.sendKeys(postcode);
+	}
+	
+	public void clickEstShipTxesBarGetQuotes()
+	{
+		EstShipTxesBarGetQuotes.click();
+	}
+	
+	//Pop-up Window After Clicking on "Get-Quotes" Button
+	
+	@FindBy(xpath="//input[@id='input-shipping-method-flat-flat']")
+	WebElement EstShip_ShipingMethod_RadioBtn;
+	
+	
+	public void Enable_EstShip_ShipingMethod_RadioBtn()
+	{
+		EstShip_ShipingMethod_RadioBtn.click();
+	}
+	
+
+	
+	
+	
+	
 	
 
 }
